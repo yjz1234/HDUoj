@@ -6,31 +6,31 @@
 
 ### 登录界面 
 
-![图片][login]
+![Image][login]
 
 
 
 ### 问题界面
 
-![图片][pro]
+![Image][pro]
 
 
 
 ### 提交界面
 
-![图片][submit]
+![Image][submit]
 
 
 
 ### 查看问题
 
-![图片][cat_pro]
+![Image][cat_pro]
 
 
 
 ### 查看提交
 
-![图片][status]
+![Image][status]
 
 
 
