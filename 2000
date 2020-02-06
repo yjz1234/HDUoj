@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+
+void main() {
+	char a[3];
+	while (cin.getline(a,4)) {
+		char temp;
+		if(a[0]>a[1]){
+			temp = a[1];
+			a[1] = a[0];
+			a[0] = temp;
+		}
+		if (a[1] < a[2]) {
+			cout << a[0] << " " << a[1] << " " << a[2] << endl;
+		}
+		else {
+			if (a[0] < a[2]) {
+				cout << a[0] << " " << a[2] << " " << a[1] << endl;
+			}else {
+				cout << a[2] << " " << a[0] << " " << a[1] << endl;
+			}
+
+		}
+
+	}
+}
