@@ -50,7 +50,10 @@ class Login_Window(QtWidgets.QMainWindow, Ui_LoginMainWindow):
             with open(filename, 'w') as f:
                 f.write(account + '\n' + password + '\n')
         else:
-            os.remove(filename)
+            try:
+                os.remove(filename)
+            except:
+                pass
         main_window.user = self.userEdit.text()
         self.session = loginHdu(self.session, self.userEdit.text(), self.passEdit.text())
         main_window.session = self.session
